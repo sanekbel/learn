@@ -105,7 +105,6 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.ru
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.runtimeconfig.dev.json
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.pdb
-C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.pdb
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.Views.dll
@@ -119,3 +118,10 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Vi
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.RazorTargetAssemblyInfo.cs
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.Views.pdb
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\libman.json
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
