@@ -2,7 +2,6 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\appsetti
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\learn.exe
-C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.csprojAssemblyReference.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\staticwebassets\learn.StaticWebAssets.Manifest.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\staticwebassets\learn.StaticWebAssets.xml
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.AssemblyInfoInputs.cache
