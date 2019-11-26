@@ -124,5 +124,16 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsof
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
-C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
