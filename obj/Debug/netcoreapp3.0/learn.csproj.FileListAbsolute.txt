@@ -135,8 +135,8 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsof
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
-C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.csprojAssemblyReference.cache
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Messages\Create.cshtml.g.cs
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Messages\Details.cshtml.g.cs
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Messages\ListMessages.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Home\About.cshtml.g.cs
