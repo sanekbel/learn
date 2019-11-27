@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using learn.Models;
@@ -33,6 +34,51 @@ namespace learn.Controllers
             return View();
         }
 
+        public ActionResult SoftDeleteMessage(int id)
+        {
+            var message = _context.Messages.Where(m => m.Id == id).Single();
+            if (message.IsDeleted == false)
+            {
+                message.IsDeleted = true;
+                _context.Update(message);
+                _context.SaveChanges();
+            }
+            else
+            {
+                message.IsDeleted = false;
+                _context.Update(message);
+                _context.SaveChanges();
+            }
+            return RedirectToAction(nameof(ListMessages));
+        }
+
+        public ActionResult HardDeleteMessage(int id)
+        {
+            var message = _context.Messages.Where(m => m.Id == id).Single();
+            _context.Remove(message);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(ListMessages));
+        }
+
+        public ActionResult CreateRandom()
+        {
+            string RandomString()
+            {
+                string path = Path.GetRandomFileName();
+                path = path.Replace(".", "");
+                return path;
+            }
+            var message = new Messages
+            {
+                Date = DateTime.Now,
+                Message = RandomString()
+            };
+
+            _context.Messages.Add(message);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(ListMessages));
+        }
+
         [HttpPost]
         public ActionResult Create(IFormCollection data)
         {
@@ -54,10 +100,6 @@ namespace learn.Controllers
             {
                 return View();
             }
-        }
-        public IActionResult Messages()
-        {
-            return View();
         }
     }
 }

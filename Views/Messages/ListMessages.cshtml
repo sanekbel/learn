@@ -23,6 +23,8 @@
                 @Html.DisplayNameFor(model => model.IsDeleted)
             </th>
             <th>Details</th>
+            <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -39,9 +41,18 @@
                 @Html.DisplayFor(modelItem => item.IsDeleted)
             </td>
             <td>
-                <a asp-action="Details" asp-route-id="@item.Id" >Details</a>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </td>
+            <td>
+                <a asp-action="SoftDeleteMessage" asp-route-id="@item.Id">Delete or Restore message</a>
+            </td>
+            <td>
+                <a asp-action="HardDeleteMessage" asp-route-id="@item.Id">Fully delete message</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+<div>
+    <a asp-controller="Home" asp-action="Index">Back to the Main Page></a>
+</div>

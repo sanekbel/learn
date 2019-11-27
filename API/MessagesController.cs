@@ -71,7 +71,7 @@ namespace learn.API
             message.IsDeleted = true;
             _context.Update(message);
             _context.SaveChanges();
-            return NoContent();
+            return Ok();
         }
     }
 }
