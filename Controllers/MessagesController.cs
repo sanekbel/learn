@@ -55,7 +55,7 @@ namespace learn.Controllers
                 return View();
             }
         }
-        public IActionResult Index()
+        public IActionResult Messages()
         {
             return View();
         }
