@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using learn.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace learn.Controllers
 {
@@ -17,6 +18,12 @@ namespace learn.Controllers
             _context = context;
         }
 
+        public ActionResult GetMessages(int id)
+        {
+            var result = _context.Messages.Where(m => m.UserId == id).ToList();
+            return View(result);
+        }
+
         public ActionResult ListUsers()
         {
             var result = _context.User.ToList();
@@ -25,7 +32,7 @@ namespace learn.Controllers
 
         public ActionResult Details(int id)
         {
-            var result = _context.User.Where(m => m.Id == id).FirstOrDefault();
+            var result = _context.User.Include("Messages").Where(m => m.Id == id).FirstOrDefault();
             return View(result);
         }
 

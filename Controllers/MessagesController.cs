@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using learn.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace learn.Controllers
 {
@@ -31,7 +32,10 @@ namespace learn.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            CreateMessage result = new CreateMessage();
+            var items = _context.User.Select(m =>  new SelectListItem(m.Name, m.Id.ToString())).ToList();
+            result.Users = items;
+            return View(result);
         }
 
         public ActionResult SoftDeleteMessage(int id)
@@ -60,6 +64,12 @@ namespace learn.Controllers
             return RedirectToAction(nameof(ListMessages));
         }
 
+        public ActionResult GetUsers()
+        {
+            var result = _context.User.ToList();
+            return View(result);
+        }
+
         public ActionResult CreateRandom()
         {
             string RandomString()
@@ -86,6 +96,7 @@ namespace learn.Controllers
             {
                 var message = new Messages
                 {
+                    UserId = int.Parse(data["UserId"]),
                     Date = DateTime.Now,
                     Message = data["Message"]
                 };
