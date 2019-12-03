@@ -9,5 +9,7 @@ namespace learn.Models
         public DateTime Date { get; set; }
         public string Message { get; set; }
         public bool? IsDeleted { get; set; }
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
     }
 }

@@ -141,3 +141,7 @@ C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Vi
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\alexander.belyakov\Documents\GIT\learn\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\User\Create.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\User\Details.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\Razor\Views\User\ListUsers.cshtml.g.cs
+C:\Users\alexander.belyakov\Documents\GIT\learn\obj\Debug\netcoreapp3.0\learn.csprojAssemblyReference.cache

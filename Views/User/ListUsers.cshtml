@@ -1,0 +1,51 @@
+﻿@model IEnumerable<learn.Models.User>
+@{
+    ViewData["Title"] = "ListUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>List of Users</h1>
+
+<p>
+    <a asp-action="Create">Create a New User</a>
+</p>
+<p>
+    <a asp-action="CreateRandom">Create a Random User</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="DeleteUser" asp-route-id="@item.Id">Delete User</a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">User messages</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-controller="Home" asp-action="Index">Back to the Main Page></a>
+</div>

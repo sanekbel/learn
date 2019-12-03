@@ -16,6 +16,7 @@ namespace learn.Models
         }
 
         public virtual DbSet<Messages> Messages { get; set; }
+        public virtual DbSet<User> User { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -37,6 +38,19 @@ namespace learn.Models
                 entity.Property(e => e.Message)
                     .IsRequired()
                     .HasMaxLength(200);
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Messages)
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Messages_User");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);
