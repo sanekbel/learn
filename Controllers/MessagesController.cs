@@ -81,7 +81,8 @@ namespace learn.Controllers
             var message = new Messages
             {
                 Date = DateTime.Now,
-                Message = RandomString()
+                Message = RandomString(),
+                UserId = 1
             };
 
             _context.Messages.Add(message);
